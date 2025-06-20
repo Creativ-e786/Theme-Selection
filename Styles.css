@@ -1,4 +1,4 @@
-/* General Nav Styling */
+/*nav*/
 nav {
   background-color: #f9f9f9;
   padding: 10px 30px;
@@ -64,7 +64,7 @@ nav {
   background-color: #1e88e5;
   color: white;
 }
-/* Reset & Body Styling */
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -126,7 +126,6 @@ body {
   right: 20px;
 }
 
-/* Dots */
 .dots {
   position: absolute;
   bottom: 30px;
@@ -209,7 +208,7 @@ body {
   background-color: #0056b3;
 }
 
-/* 📱 Responsive tweak for smaller screens */
+
 @media (max-width: 992px) {
   .card-grid {
     grid-template-columns: repeat(2, 1fr);
